@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
-* Студент: [Максим Рудой](https://up.htmlacademy.ru/javascript/25/user/1934689).
-* Наставник: Артём Рудов.
+* Студент: [Максим Рудой](https://htmlacademy.ru/profile/id1934689).
+* Наставник: [Артём Рудов](https://htmlacademy.ru/profile/artrudov).
 
 ---
 
