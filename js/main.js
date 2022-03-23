@@ -1,7 +1,7 @@
 import {getGLoc, getRandomNumber} from './util.js';
 import {getObjNav, getHousing, getTime, getFeatur, getAlbumPhoto, massivChekTime, massivHousing} from './data.js';
 import './generatedPopup.js';
-// eslint-disable-next-line no-unused-vars
+
 function generatedOffer() {
   const massivObject = [];
   for (let i = 1; i <= 10; i++) {

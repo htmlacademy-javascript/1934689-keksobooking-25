@@ -13,8 +13,9 @@ const massivHousing = [
   'bungalow', 'hotel'
 ];
 
+
 // eslint-disable-next-line no-shadow
-function getHousing(massivHousing){
+function getHousing(massivHousing) {
   return massivHousing[Math.floor(Math.random() *
     massivHousing.length)];
 }
@@ -22,7 +23,7 @@ function getHousing(massivHousing){
 const massivChekTime = ['12:00', '13:00', '14:00'];
 
 // eslint-disable-next-line no-shadow
-function getTime(massivChekTime){
+function getTime(massivChekTime) {
   return massivChekTime[Math.floor(Math.random() *
     massivChekTime.length)];
 }
@@ -48,4 +49,4 @@ function getAlbumPhoto() {
   return massivPhotos;
 }
 
-export {getObjNav, getHousing, getTime, getFeatur, getAlbumPhoto, massivChekTime, massivHousing};
+export {getObjNav, getHousing, getTime, getFeatur, getAlbumPhoto, massivChekTime, massivHousing,};
