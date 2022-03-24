@@ -1,14 +1,14 @@
 import {getGLoc, getRandomNumber} from './util.js';
 import {getObjNav, getHousing, getTime, getFeatur, getAlbumPhoto, massivChekTime, massivHousing} from './data.js';
+import './generatedPopup.js';
 
-// eslint-disable-next-line no-unused-vars
 function generatedOffer() {
   const massivObject = [];
   for (let i = 1; i <= 10; i++) {
     const numberPictur = i;
     const offer = {
       author: {
-        img: numberPictur === 10 ? `img/avatars/user${numberPictur} .png` : `img/avatars/user${0}${numberPictur} .png` },
+        img: numberPictur === 10 ? `img/avatars/user${numberPictur}.png` : `img/avatars/user${0}${numberPictur}.png` },
       offer: {
         title:'Халява',
         adress: getObjNav((getGLoc(35.65000, 35.70000)), (getGLoc(139.70000, 139.80000))),
@@ -32,3 +32,4 @@ function generatedOffer() {
   return massivObject;
 }
 generatedOffer();
+export {generatedOffer};
