@@ -1,6 +1,7 @@
 import {getGLoc, getRandomNumber} from './util.js';
 import {getObjNav, getHousing, getTime, getFeatur, getAlbumPhoto, massivChekTime, massivHousing} from './data.js';
 import './generatedPopup.js';
+import './mapActivity.js';
 
 function generatedOffer() {
   const massivObject = [];
@@ -29,7 +30,8 @@ function generatedOffer() {
     };
     massivObject.push(offer);
   }
+
   return massivObject;
 }
-generatedOffer();
+
 export {generatedOffer};
